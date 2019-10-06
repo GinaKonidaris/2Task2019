@@ -13,7 +13,7 @@ using System.IO;
 namespace Task1_18013130GADE
 {
     public partial class Form1 : Form
-    {
+    {    
         GameEngine engine;
         Map map = new Map(20, 20, 20);
         const int SIZE = 20;
@@ -23,7 +23,7 @@ namespace Task1_18013130GADE
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {
+        {   //starts new game engine when game starts
             engine = new GameEngine(20, txtInfo, groupBox1);
             DisplayMap();
         }
@@ -32,7 +32,7 @@ namespace Task1_18013130GADE
      
         }
         private void DisplayMap()
-        {  
+        {  //clears out groupbox when game is loaded
             groupBox1.Controls.Clear();
             
         }
@@ -41,7 +41,7 @@ namespace Task1_18013130GADE
             
         }
         private void Button_click(object sender, EventArgs e)
-        {
+        { //tracks where the button was clicked
             int x = ((Button)sender).Location.X / SIZE - groupBox1.Location.X / SIZE;
             int y = ((Button)sender).Location.Y / SIZE - groupBox1.Location.Y / SIZE;
             foreach (MeleeUnit u in map.Units)
@@ -64,12 +64,12 @@ namespace Task1_18013130GADE
         }
 
         private void BtnPause_Click(object sender, EventArgs e)
-        {
+        {  //pauses timer
             timer1.Enabled = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
+        {   //starts timer
             timer1.Enabled = false;
         }
 
@@ -79,14 +79,14 @@ namespace Task1_18013130GADE
         }
 
         private void timer1_Tick_1(object sender, EventArgs e)
-        {
+        {   //what time tick event checks
             engine.UpdateMap();
             txtInfo.Text = DateTime.Now.ToLongTimeString();
             DisplayMap();
         }
 
         private void btnsave_Click(object sender, EventArgs e)
-        {
+        {   //save button
             Form1 b = new Form1();
             b.Name = txtName.Text;
             BinaryFormatter bf = new BinaryFormatter();
@@ -107,7 +107,7 @@ namespace Task1_18013130GADE
         }
 
         private void btnload_Click(object sender, EventArgs e)
-        {
+        {   //load save
             Form1 b = new Form1();
 
             BinaryFormatter bf = new BinaryFormatter();

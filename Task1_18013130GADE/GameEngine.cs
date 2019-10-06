@@ -11,7 +11,7 @@ using System.Windows.Forms;
 namespace Task1_18013130GADE
 {
     class GameEngine : Form
-    {
+    {   //Createsgroupbox
         GroupBox groupBox1;
         private int round;
         Map map = new Map(20, 20, 20);
@@ -81,7 +81,7 @@ namespace Task1_18013130GADE
 
         }
         public void UpdateMap()
-        {
+        {//updates map to move units
             foreach (Unit u in map.Units)
             {
                 if (u.GetType() == typeof(MeleeUnit))
@@ -121,7 +121,7 @@ namespace Task1_18013130GADE
             round++;
         }            
     public GameEngine(int numUnits, TextBox txtInfo, GroupBox gMap)
-        {
+        { //creates the game engine for the game
             groupBox1 = gMap;
             map = new Map(numUnits, txtInfo);
 

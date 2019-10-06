@@ -13,7 +13,7 @@ namespace Task1_18013130GADE
 
 
         public override void Move(Direction d)
-        {
+        {//moves the rangedunit in different directions
             switch (d)
             {
                 case Direction.North:
@@ -52,7 +52,7 @@ namespace Task1_18013130GADE
         }
 
         private int DistanceTo(Unit u)
-        {
+        {//checks the distance of Rangedunits to other units
             if (u.GetType() == typeof(MeleeUnit))
             {
                 MeleeUnit n = (MeleeUnit)u;
@@ -66,7 +66,7 @@ namespace Task1_18013130GADE
         }
 
         public Direction DirectionTo(Unit u)
-        {
+        {//moves rangedunit
             if (u.GetType() == typeof(RangedUnit))
             {
                 RangedUnit n = (RangedUnit)u;
@@ -93,7 +93,7 @@ namespace Task1_18013130GADE
             }
         }
         public override void Combat(Unit u)
-        {
+        {//starts comabt for ranged unit
             if (u.GetType() == typeof(RangedUnit))
             {
                 health -= ((RangedUnit)u).attack;
@@ -108,7 +108,7 @@ namespace Task1_18013130GADE
 
         }
         public override bool Inranged(Unit u)
-        {
+        {//checks to see if unit is in range, if it isnt the unit will move
             if (u.GetType() == typeof(RangedUnit))
             {
                 RangedUnit n = (RangedUnit)u;
@@ -124,7 +124,7 @@ namespace Task1_18013130GADE
             return false;
         }
         public override Unit Closest(Unit[] units)
-        {
+        {//checks the  closest unit to RangedUnit
             Unit closest = this;
             int closestDistance = 50;
 
@@ -142,7 +142,7 @@ namespace Task1_18013130GADE
             return closest;
         }
         public override bool Isdead()
-        {
+        {//Checks to see if RangedUnit is alive
             if (health < +0)
             {
                 return false;
@@ -153,7 +153,7 @@ namespace Task1_18013130GADE
             }
         }
         public override string Tostring()
-        {
+        {//Data on Ranged Unit
             return "RU" + xpos + "," + ypos + "," + health + "," + Name + team;
         }
 

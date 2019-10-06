@@ -9,7 +9,7 @@ using System.Drawing;
 namespace Task1_18013130GADE
 {
     class Map
-    {
+    { //creates map that units will fight in
         int numUnits = 0;
         TextBox txtInfo;
         Random r = new Random();
@@ -21,13 +21,13 @@ namespace Task1_18013130GADE
         }
 
         public Map(int n, TextBox txt)
-        {
+        { 
             numUnits = n;
             txtInfo = txt;
         }
 
         public Map(int maxX, int maxY, int numUnits)
-        {
+        { //the max sixe for map
             units = new Unit[numUnits];
             for (int i = 0; i < numUnits; i++)
             {

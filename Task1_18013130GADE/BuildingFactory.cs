@@ -111,7 +111,7 @@ namespace Task1_18013130GADE
             Team = team;
             Symbol = symbol;
         }
-        public override string Tostring()
+        public override string Tostring() //gives infomration on Building Factoriews
         {
             return "BR" + Xpos + "," + Ypos + "," + health +symbol+ spawnpostion + team ;
         }
