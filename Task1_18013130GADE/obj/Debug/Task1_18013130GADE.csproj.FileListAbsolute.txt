@@ -1,0 +1,20 @@
+C:\Users\User\source\repos\Task1_18013130GADE\Task1_18013130GADE\bin\Debug\Task1_18013130GADE.exe.config
+C:\Users\User\source\repos\Task1_18013130GADE\Task1_18013130GADE\bin\Debug\Task1_18013130GADE.exe
+C:\Users\User\source\repos\Task1_18013130GADE\Task1_18013130GADE\bin\Debug\Task1_18013130GADE.pdb
+C:\Users\User\source\repos\Task1_18013130GADE\Task1_18013130GADE\obj\Debug\Task1_18013130GADE.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Task1_18013130GADE\Task1_18013130GADE\obj\Debug\Task1_18013130GADE.Form1.resources
+C:\Users\User\source\repos\Task1_18013130GADE\Task1_18013130GADE\obj\Debug\Task1_18013130GADE.Properties.Resources.resources
+C:\Users\User\source\repos\Task1_18013130GADE\Task1_18013130GADE\obj\Debug\Task1_18013130GADE.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Task1_18013130GADE\Task1_18013130GADE\obj\Debug\Task1_18013130GADE.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Task1_18013130GADE\Task1_18013130GADE\obj\Debug\Task1_18013130GADE.exe
+C:\Users\User\source\repos\Task1_18013130GADE\Task1_18013130GADE\obj\Debug\Task1_18013130GADE.pdb
+C:\Users\User\source\repos\Task1_18013130GADE - Copy\Task1_18013130GADE\obj\Debug\Task1_18013130GADE.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Task1_18013130GADE - Copy\Task1_18013130GADE\obj\Debug\Task1_18013130GADE.Form1.resources
+C:\Users\User\source\repos\Task1_18013130GADE - Copy\Task1_18013130GADE\obj\Debug\Task1_18013130GADE.Properties.Resources.resources
+C:\Users\User\source\repos\Task1_18013130GADE - Copy\Task1_18013130GADE\obj\Debug\Task1_18013130GADE.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Task1_18013130GADE - Copy\Task1_18013130GADE\obj\Debug\Task1_18013130GADE.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Task1_18013130GADE - Copy\Task1_18013130GADE\obj\Debug\Task1_18013130GADE.exe
+C:\Users\User\source\repos\Task1_18013130GADE - Copy\Task1_18013130GADE\obj\Debug\Task1_18013130GADE.pdb
+C:\Users\User\source\repos\Task1_18013130GADE - Copy\Task1_18013130GADE\bin\Debug\Task1_18013130GADE.exe.config
+C:\Users\User\source\repos\Task1_18013130GADE - Copy\Task1_18013130GADE\bin\Debug\Task1_18013130GADE.exe
+C:\Users\User\source\repos\Task1_18013130GADE - Copy\Task1_18013130GADE\bin\Debug\Task1_18013130GADE.pdb
