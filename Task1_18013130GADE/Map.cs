@@ -10,6 +10,7 @@ namespace Task1_18013130GADE
 {
     class Map
     { //creates map that units will fight in
+        Map M;
         int numUnits = 0;
         TextBox txtInfo;
         Random r = new Random();

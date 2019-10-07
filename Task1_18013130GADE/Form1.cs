@@ -13,7 +13,7 @@ using System.IO;
 namespace Task1_18013130GADE
 {
     public partial class Form1 : Form
-    {    
+    {    Map M;
         GameEngine engine;
         const int SIZE = 20;
         public Form1()
@@ -43,7 +43,7 @@ namespace Task1_18013130GADE
         { //tracks where the button was clicked
             int x = ((Button)sender).Location.X / SIZE - groupBox1.Location.X / SIZE;
             int y = ((Button)sender).Location.Y / SIZE - groupBox1.Location.Y / SIZE;
-            foreach (MeleeUnit u in Map.Units)
+            foreach (MeleeUnit u in Map.M)
             {
 
                 if (u.GetType() == typeof(MeleeUnit))
